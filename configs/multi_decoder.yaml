@@ -305,7 +305,7 @@ pages:
       content: Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/Test20-Cube_localisation-opposite_prox/ref_cube_opposite.wav
+      reference: configs/resources/audio/Test20-Cube_localisation-opposite/ref_cube_opposite.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:

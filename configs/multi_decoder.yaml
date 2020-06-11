@@ -113,9 +113,9 @@ pages:
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/Test6-7.1.4_local_accuracy/AllRad_voice_horiz_atSpk_-120,0.wav
-          C2: configs/resources/audio/Test6-7.1.4_local_accuracy/Harpex_voice_horiz_atSpk_-120,0.wav
-          C3: configs/resources/audio/Test6-7.1.4_local_accuracy/DTS_voice_horiz_atSpk_-120,0.wav
+          C1: configs/resources/audio/Test6-7.1.4_local_accuracy/AllRad_voice_horiz_betSpk_-120,0.wav
+          C2: configs/resources/audio/Test6-7.1.4_local_accuracy/Harpex_voice_horiz_betSpk_-120,0.wav
+          C3: configs/resources/audio/Test6-7.1.4_local_accuracy/DTS_voice_horiz_betSpk_-120,0.wav
           C4: configs/resources/audio/Test6-7.1.4_local_accuracy/Mono-Anchor-Speech-LPF-v2.wav
     # - type: mushra
       # id: ElevCinBetDrums

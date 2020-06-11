@@ -271,34 +271,34 @@ pages:
           # C2: configs/resources/audio/Test17-7.1.4_localisation-close_prox/Harpex_7.1.4_close.wav
           # C3: configs/resources/audio/Test17-7.1.4_localisation-close_prox/DTS_7.1.4_close.wav
           # C4: configs/resources/audio/Test17-7.1.4_localisation-close_prox/anchor_mono_downmix_LPF_2kHz-v2.wav
-    - type: mushra
-      id: localCloseCube
-      name: CLOSE PROXIMITY SOURCE LOCALISATION; CUBE LAYOUT
-      content: Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
-      showWaveform: true
-      enableLooping: true 
-      reference: configs/resources/audio/Test18-Cube_localisation-close_prox/ref_cube_close.wav
-      createAnchor35: false
-      createAnchor70: false
-      stimuli:
-          C1: configs/resources/audio/Test18-Cube_localisation-close_prox/AllRad_cube_close.wav
-          C2: configs/resources/audio/Test18-Cube_localisation-close_prox/Harpex_cube_close.wav
-          C3: configs/resources/audio/Test18-Cube_localisation-close_prox/DTS_cube_close.wav
-          C4: configs/resources/audio/Test18-Cube_localisation-close_prox/anchor_mono_downmix_LPF_2kHz-v2.wav
     # - type: mushra
-      # id: localOppCin
-      # name: DIAMETRICALLY OPPOSITE SOURCE LOCALISATION; 7.1.4 LAYOUT 
+      # id: localCloseCube
+      # name: CLOSE PROXIMITY SOURCE LOCALISATION; CUBE LAYOUT
       # content: Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
       # showWaveform: true
       # enableLooping: true 
-      # reference: configs/resources/audio/Test19-7.1.4_localisation-close_prox/ref_7.1.4_opposite.wav
+      # reference: configs/resources/audio/Test18-Cube_localisation-close_prox/ref_cube_close.wav
       # createAnchor35: false
       # createAnchor70: false
       # stimuli:
-          # C1: configs/resources/audio/Test19-7.1.4_localisation-close_prox/AllRad_7.1.4_opposite.wav
-          # C2: configs/resources/audio/Test19-7.1.4_localisation-close_prox/DTS_7.1.4_opposite.wav
-          # C3: configs/resources/audio/Test19-7.1.4_localisation-close_prox/Harpex_7.1.4_opposite.wav
-          # C4: configs/resources/audio/Test19-7.1.4_localisation-close_prox/anchor_mono_downmix_LPF_2kHz-v2.wav
+          # C1: configs/resources/audio/Test18-Cube_localisation-close_prox/AllRad_cube_close.wav
+          # C2: configs/resources/audio/Test18-Cube_localisation-close_prox/Harpex_cube_close.wav
+          # C3: configs/resources/audio/Test18-Cube_localisation-close_prox/DTS_cube_close.wav
+          # C4: configs/resources/audio/Test18-Cube_localisation-close_prox/anchor_mono_downmix_LPF_2kHz-v2.wav
+    - type: mushra
+      id: localOppCin
+      name: DIAMETRICALLY OPPOSITE SOURCE LOCALISATION; 7.1.4 LAYOUT 
+      content: Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/audio/Test19-7.1.4_localisation-close_prox/ref_7.1.4_opposite.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Test19-7.1.4_localisation-close_prox/AllRad_7.1.4_opposite.wav
+          C2: configs/resources/audio/Test19-7.1.4_localisation-close_prox/DTS_7.1.4_opposite.wav
+          C3: configs/resources/audio/Test19-7.1.4_localisation-close_prox/Harpex_7.1.4_opposite.wav
+          C4: configs/resources/audio/Test19-7.1.4_localisation-close_prox/anchor_mono_downmix_LPF_2kHz-v2.wav
     # - type: mushra
       # id: localOppCube
       # name: DIAMETRICALLY OPPOSITE SOURCE LOCALISATION; CUBE LAYOUT

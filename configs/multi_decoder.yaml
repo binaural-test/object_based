@@ -201,34 +201,34 @@ pages:
           # C2: configs/resources/audio/Test12-Cube_local_accuracy/Harpex_voice_elev_atSpk_-45,45.wav
           # C3: configs/resources/audio/Test12-Cube_local_accuracy/AllRad_voice_elev_atSpk_-45,45.wav
           # C4: configs/resources/audio/Test12-Cube_local_accuracy/Mono-Anchor-Speech-LPF-v2.wav
-    - type: mushra
-      id: HorizCubeBetDrums
-      name: HORIZONTAL LOCALISATION ACCURACY; CUBE LAYOUT, BETWEEN SPEAKER, DRUMS
-      content: Please rate the test files from 0-100 on how similar the horizontal position of the sound source is to the available reference.
-      showWaveform: true
-      enableLooping: true 
-      reference: configs/resources/audio/Test13-Cube_local_accuracy/ref_drums_horiz_betSpk_90,0.wav
-      createAnchor35: false
-      createAnchor70: false
-      stimuli:
-          C1: configs/resources/audio/Test13-Cube_local_accuracy/AllRad_drums_horiz_betSpk_90,0.wav
-          C2: configs/resources/audio/Test13-Cube_local_accuracy/Harpex_drums_horiz_betSpk_90,0.wav
-          C3: configs/resources/audio/Test13-Cube_local_accuracy/DTS_drums_horiz_betSpk_90,0.wav
-          C4: configs/resources/audio/Test13-Cube_local_accuracy/Mono-Anchor-SynthDrums-LPF-v2.wav        
     # - type: mushra
-      # id: HorizCubeBetVoice
-      # name: HORIZONTAL LOCALISATION ACCURACY; Cube LAYOUT, BETWEEN SPEAKERS, VOICE
-      # content: Please rate the test files from 0-100 on how similar the elevation of the sound source is to the available reference.
+      # id: HorizCubeBetDrums
+      # name: HORIZONTAL LOCALISATION ACCURACY; CUBE LAYOUT, BETWEEN SPEAKER, DRUMS
+      # content: Please rate the test files from 0-100 on how similar the horizontal position of the sound source is to the available reference.
       # showWaveform: true
       # enableLooping: true 
-      # reference: configs/resources/audio/Test14-Cube_local_accuracy/ref_voice_horiz_betSpk_0,0.wav
+      # reference: configs/resources/audio/Test13-Cube_local_accuracy/ref_drums_horiz_betSpk_90,0.wav
       # createAnchor35: false
       # createAnchor70: false
       # stimuli:
-          # C1: configs/resources/audio/Test14-Cube_local_accuracy/AllRad_voice_horiz_atSpk_0,0.wav
-          # C2: configs/resources/audio/Test14-Cube_local_accuracy/Harpex_voice_horiz_atSpk_0,0.wav
-          # C3: configs/resources/audio/Test14-Cube_local_accuracy/DTS_voice_horiz_atSpk_0,0.wav
-          # C4: configs/resources/audio/Test14-Cube_local_accuracy/Mono-Anchor-Speech-LPF-v2.wav
+          # C1: configs/resources/audio/Test13-Cube_local_accuracy/AllRad_drums_horiz_betSpk_90,0.wav
+          # C2: configs/resources/audio/Test13-Cube_local_accuracy/Harpex_drums_horiz_betSpk_90,0.wav
+          # C3: configs/resources/audio/Test13-Cube_local_accuracy/DTS_drums_horiz_betSpk_90,0.wav
+          # C4: configs/resources/audio/Test13-Cube_local_accuracy/Mono-Anchor-SynthDrums-LPF-v2.wav        
+    - type: mushra
+      id: HorizCubeBetVoice
+      name: HORIZONTAL LOCALISATION ACCURACY; CUBE LAYOUT, BETWEEN SPEAKERS, VOICE
+      content: Please rate the test files from 0-100 on how similar the elevation of the sound source is to the available reference.
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/audio/Test14-Cube_local_accuracy/ref_voice_horiz_betSpk_0,0.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Test14-Cube_local_accuracy/AllRad_voice_horiz_betSpk_0,0.wav
+          C2: configs/resources/audio/Test14-Cube_local_accuracy/Harpex_voice_horiz_betSpk_0,0.wav
+          C3: configs/resources/audio/Test14-Cube_local_accuracy/DTS_voice_horiz_betSpk_0,0.wav
+          C4: configs/resources/audio/Test14-Cube_local_accuracy/Mono-Anchor-Speech-LPF-v2.wav
     # - type: mushra
       # id: ElevCubeBetDrums
       # name: ELEVATIONAL LOCALISATION ACCURACY; Cube LAYOUT, BETWEEN SPEAKER, DRUMS

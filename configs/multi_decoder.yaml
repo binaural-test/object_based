@@ -270,7 +270,7 @@ pages:
           C1: configs/resources/audio/Test17-7.1.4_localisation-close_prox/AllRad_7.1.4_close.wav
           C2: configs/resources/audio/Test17-7.1.4_localisation-close_prox/Harpex_7.1.4_close.wav
           C3: configs/resources/audio/Test17-7.1.4_localisation-close_prox/DTS_7.1.4_close.wav
-          C4: configs/resources/audio/Test17-Cube_localisation-close_prox/anchor_mono_downmix_LPF_2kHz-v2.wav
+          C4: configs/resources/audio/Test17-7.1.4_localisation-close_prox/anchor_mono_downmix_LPF_2kHz-v2.wav
     # - type: mushra
       # id: localCloseCube
       # name: CLOSE PROXIMITY SOURCE LOCALISATION; CUBE LAYOUT

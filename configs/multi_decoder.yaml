@@ -36,8 +36,8 @@ pages:
         
     - type: mushra
       id: HorCinAtDrums
-      name: HORIZONTAL LOCALISATION ACCURACY; 7.1.4 LAYOUT, AT SPEAKER, DRUMS
-      content: This test is based on the positioning of the sound source on the horizontal plane. Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
+      name: TEST 1 - LOCALISATION ACCURACY
+      content: Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test1-7.1.4_local_accuracy/ref_drums_horiz_atSpk_30,0.wav
@@ -50,22 +50,22 @@ pages:
           C4: configs/resources/audio/Test1-7.1.4_local_accuracy/Mono-Anchor-SynthDrums-LPF-v2.wav
     - type: mushra
       id: HorCinAtVoice
-      name: HORIZONTAL LOCALISATION ACCURACY; 7.1.4 LAYOUT, AT SPEAKERS, VOICE
-      content: This test is based on the positioning of the sound source on the horizontal plane. Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
+      name: TEST 2 - LOCALISATION ACCURACY
+      content: Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/Test2-7.1.4_local_accuracy/ref_voice_horiz_atSpk_90,0.wav
+      reference: configs/resources/audio/Test2-7.1.4_local_accuracy/ref_voice_horiz_atSpk_-90,0.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/Test2-7.1.4_local_accuracy/AllRad_voice_horiz_atSpk_90,0.wav
-          C2: configs/resources/audio/Test2-7.1.4_local_accuracy/Harpex_voice_horiz_atSpk_90,0.wav
-          C3: configs/resources/audio/Test2-7.1.4_local_accuracy/DTS_voice_horiz_atSpk_90,0.wav
+          C1: configs/resources/audio/Test2-7.1.4_local_accuracy/AllRad_voice_horiz_atSpk_-90,0.wav
+          C2: configs/resources/audio/Test2-7.1.4_local_accuracy/Harpex_voice_horiz_atSpk_-90,0.wav
+          C3: configs/resources/audio/Test2-7.1.4_local_accuracy/DTS_voice_horiz_atSpk_-90,0.wav
           C4: configs/resources/audio/Test2-7.1.4_local_accuracy/Mono-Anchor-Speech-LPF-v2.wav
     - type: mushra
       id: ElevCinAtDrums
-      name: ELEVATIONAL LOCALISATION ACCURACY; 7.1.4 LAYOUT, AT SPEAKER, DRUMS
-      content: This test is based on the positioning of the sound source in the vertical plane. Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
+      name: TEST 3 - LOCALISATION ACCURACY
+      content: Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test3-7.1.4_local_accuracy/ref_drums_elev_atSpk_45,45.wav
@@ -78,8 +78,8 @@ pages:
           C4: configs/resources/audio/Test3-7.1.4_local_accuracy/Mono-Anchor-SynthDrums-LPF-v2.wav      
     - type: mushra
       id: ElevCinAtVoice
-      name: ELEVATIONAL LOCALISATION ACCURACY; 7.1.4 LAYOUT, AT SPEAKER, VOICE
-      content: This test is based on the positioning of the sound source in the vertical plane. Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
+      name: TEST 4 - LOCALISATION ACCURACY
+      content: Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test4-7.1.4_local_accuracy/ref_voice_elev_atSpk_-135,45.wav
@@ -92,8 +92,8 @@ pages:
           C4: configs/resources/audio/Test4-7.1.4_local_accuracy/Mono-Anchor-Speech-LPF-v2.wav
     - type: mushra
       id: HorizCinBetDrums
-      name: HORIZONTAL LOCALISATION ACCURACY; 7.1.4 LAYOUT, BETWEEN SPEAKER, DRUMS
-      content: This test is based on the positioning of the sound source on the horizontal plane. Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
+      name: TEST 5 - LOCALISATION ACCURACY
+      content: Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test5-7.1.4_local_accuracy/ref_drums_horiz_betSpk_60,0.wav
@@ -106,8 +106,8 @@ pages:
           C4: configs/resources/audio/Test5-7.1.4_local_accuracy/Mono-Anchor-SynthDrums-LPF-v2.wav        
     - type: mushra
       id: HorizCinBetVoice
-      name: HORIZONTAL LOCALISATION ACCURACY; 7.1.4 LAYOUT, BETWEEN SPEAKERS, VOICE
-      content: This test is based on the positioning of the sound source on the horizontal plane. Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
+      name: TEST 6 - LOCALISATION ACCURACY
+      content: Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test6-7.1.4_local_accuracy/ref_voice_horiz_betSpk_-120,0.wav
@@ -120,8 +120,8 @@ pages:
           C4: configs/resources/audio/Test6-7.1.4_local_accuracy/Mono-Anchor-Speech-LPF-v2.wav
     - type: mushra
       id: ElevCinBetDrums
-      name: ELEVATIONAL LOCALISATION ACCURACY; 7.1.4 LAYOUT, BETWEEN SPEAKER, DRUMS
-      content: This test is based on the positioning of the sound source in the vertical plane. Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
+      name: TEST 7 - LOCALISATION ACCURACY
+      content: Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test7-7.1.4_local_accuracy/ref_drums_elev_betSpk_15,25.wav
@@ -134,8 +134,8 @@ pages:
           C4: configs/resources/audio/Test7-7.1.4_local_accuracy/Mono-Anchor-SynthDrums-LPF-v2.wav
     - type: mushra
       id: ElevCinBetVoice
-      name: ELEVATIONAL LOCALISATION ACCURACY; 7.1.4 LAYOUT, BETWEEN SPEAKERS, VOICE
-      content: This test is based on the positioning of the sound source in the vertical plane. Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
+      name: TEST 8 - LOCALISATION ACCURACY
+      content: Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test8-7.1.4_local_accuracy/ref_voice_elev_betSpk_-120,60.wav
@@ -148,8 +148,8 @@ pages:
           C4: configs/resources/audio/Test8-7.1.4_local_accuracy/Mono-Anchor-Speech-LPF-v2.wav
     - type: mushra
       id: HorCubeAtDrums
-      name: HORIZONTAL LOCALISATION ACCURACY; CUBE LAYOUT, AT SPEAKER, DRUMS
-      content: This test is based on the positioning of the sound source on the horizontal plane. Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
+      name: TEST 9 - LOCALISATION ACCURACY
+      content: Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test9-Cube_local_accuracy/ref_drums_horiz_atSpk_-45,0.wav
@@ -162,8 +162,8 @@ pages:
           C4: configs/resources/audio/Test9-Cube_local_accuracy/Mono-Anchor-SynthDrums-LPF-v2.wav
     - type: mushra
       id: HorCubeAtVoice
-      name: HORIZONTAL LOCALISATION ACCURACY; CUBE LAYOUT, AT SPEAKERS, VOICE
-      content: This test is based on the positioning of the sound source on the horizontal plane. Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
+      name: TEST 10 - LOCALISATION ACCURACY
+      content: Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test10-Cube_local_accuracy/ref_voice_horiz_atSpk_135,0.wav
@@ -176,8 +176,8 @@ pages:
           C4: configs/resources/audio/Test10-Cube_local_accuracy/Mono-Anchor-Speech-LPF-v2.wav
     - type: mushra
       id: ElevCubeAtDrums
-      name: ELEVATIONAL LOCALISATION ACCURACY; CUBE LAYOUT, AT SPEAKER, DRUMS
-      content: This test is based on the positioning of the sound source in the vertical plane. Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
+      name: TEST 11 - LOCALISATION ACCURACY
+      content: Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test11-Cube_local_accuracy/ref_drums_elev_atSpk_45,45.wav
@@ -190,8 +190,8 @@ pages:
           C4: configs/resources/audio/Test11-Cube_local_accuracy/Mono-Anchor-SynthDrums-LPF-v2.wav      
     - type: mushra
       id: ElevCubeAtVoice
-      name: ELEVATIONAL LOCALISATION ACCURACY; CUBE LAYOUT, AT SPEAKER, VOICE
-      content: This test is based on the positioning of the sound source in the vertical plane. Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
+      name: TEST 12 - LOCALISATION ACCURACY
+      content: Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test12-Cube_local_accuracy/ref_voice_elev_atSpk_-45,45.wav
@@ -204,8 +204,8 @@ pages:
           C4: configs/resources/audio/Test12-Cube_local_accuracy/Mono-Anchor-Speech-LPF-v2.wav
     - type: mushra
       id: HorizCubeBetDrums
-      name: HORIZONTAL LOCALISATION ACCURACY; CUBE LAYOUT, BETWEEN SPEAKERS, DRUMS
-      content: This test is based on the positioning of the sound source on the horizontal plane. Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
+      name: TEST 13 - LOCALISATION ACCURACY
+      content: Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test13-Cube_local_accuracy/ref_drums_horiz_betSpk_90,0.wav
@@ -218,8 +218,8 @@ pages:
           C4: configs/resources/audio/Test13-Cube_local_accuracy/Mono-Anchor-SynthDrums-LPF-v2.wav        
     - type: mushra
       id: HorizCubeBetVoice
-      name: HORIZONTAL LOCALISATION ACCURACY; CUBE LAYOUT, BETWEEN SPEAKERS, VOICE
-      content: This test is based on the positioning of the sound source on the horizontal plane. Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
+      name: TEST 14 - LOCALISATION ACCURACY
+      content: Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test14-Cube_local_accuracy/ref_voice_horiz_betSpk_0,0.wav
@@ -232,8 +232,8 @@ pages:
           C4: configs/resources/audio/Test14-Cube_local_accuracy/Mono-Anchor-Speech-LPF-v2.wav
     - type: mushra
       id: ElevCubeBetDrums
-      name: ELEVATIONAL LOCALISATION ACCURACY; CUBE LAYOUT, BETWEEN SPEAKER, DRUMS
-      content: This test is based on the positioning of the sound source in the vertical plane. Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
+      name: TEST 15 - LOCALISATION ACCURACY
+      content: Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test15-Cube_local_accuracy/ref_drums_elev_betSpk_-90,60.wav
@@ -246,8 +246,8 @@ pages:
           C4: configs/resources/audio/Test15-Cube_local_accuracy/Mono-Anchor-SynthDrums-LPF-v2.wav
     - type: mushra
       id: ElevCubeBetVoice
-      name: ELEVATIONAL LOCALISATION ACCURACY; CUBE LAYOUT, BETWEEN SPEAKERS, VOICE
-      content: This test is based on the positioning of the sound source in the vertical plane. Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
+      name: TEST 16 - LOCALISATION ACCURACY
+      content: Please rate the test files from 0-100 on how similar the direction of the sound source is to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test16-Cube_local_accuracy/ref_voice_elev_betSpk_0,30.wav
@@ -260,8 +260,8 @@ pages:
           C4: configs/resources/audio/Test16-Cube_local_accuracy/Mono-Anchor-Speech-LPF-v2.wav
     - type: mushra
       id: localCloseCin
-      name: CLOSE PROXIMITY SOURCE LOCALISATION; 7.1.4 LAYOUT
-      content: This test is based on the positioning of two sound sources in cose proximity on the horizontal plane. Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
+      name: TEST 17 - SOURCE LOCALISATION
+      content: Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test17-7.1.4_localisation-close_prox/ref_7.1.4_close.wav
@@ -274,8 +274,8 @@ pages:
           C4: configs/resources/audio/Test17-7.1.4_localisation-close_prox/anchor_mono_downmix_LPF_2kHz-v2.wav
     - type: mushra
       id: localCloseCube
-      name: CLOSE PROXIMITY SOURCE LOCALISATION; CUBE LAYOUT
-      content: This test is based on the positioning of two sound sources in close proximity on the horizontal plane. Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
+      name: TEST 18 - SOURCE LOCALISATION
+      content: Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test18-Cube_localisation-close_prox/ref_cube_close.wav
@@ -288,8 +288,8 @@ pages:
           C4: configs/resources/audio/Test18-Cube_localisation-close_prox/anchor_mono_downmix_LPF_2kHz-v2.wav
     - type: mushra
       id: localOppCin
-      name: DIAMETRICALLY OPPOSITE SOURCE LOCALISATION; 7.1.4 LAYOUT 
-      content: This test is based on the positioning of two sound sources in opposite directions on the horizontal plane. Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
+      name: TEST 19 - SOURCE LOCALISATION
+      content: Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test19-7.1.4_localisation-opposite/ref_7.1.4_opposite.wav
@@ -302,8 +302,8 @@ pages:
           C4: configs/resources/audio/Test19-7.1.4_localisation-opposite/anchor_mono_downmix_LPF_2kHz-v2.wav
     - type: mushra
       id: localOppCube
-      name: DIAMETRICALLY OPPOSITE SOURCE LOCALISATION; CUBE LAYOUT
-      content: This test is based on the positioning of two sound sources in opposite directions on the horizontal plane. Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
+      name: TEST 20 - SOURCE LOCALISATION
+      content: Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test20-Cube_localisation-opposite/ref_cube_opposite.wav
@@ -316,8 +316,8 @@ pages:
           C4: configs/resources/audio/Test20-Cube_localisation-opposite/anchor_mono_downmix_LPF_2kHz-v2.wav
     - type: mushra
       id: ASWCinema
-      name: APPARENT SOURCE WIDTH; 7.1.4 LAYOUT
-      content: This test is based on how wide the sound source sounds. Please rate the test files from 0-100 on how similar the width of the sound source is to the available reference.
+      name: TEST 21 - APPARENT SOURCE WIDTH
+      content: Please rate the test files from 0-100 on how similar the width of the sound source is to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test21-7.1.4_ASW/ref_7.1.4_45,0.wav
@@ -330,8 +330,8 @@ pages:
           C4: configs/resources/audio/Test21-7.1.4_ASW/DTS_7.1.4_45,0.wav
     - type: mushra
       id: ASWCube
-      name: APPARENT SOURCE WIDTH; CUBE LAYOUT
-      content: This test is based on how wide the sound source sounds. Please rate the test files from 0-100 on how similar the width of the sound source is to the available reference.
+      name: TEST 22 - APPARENT SOURCE WIDTH
+      content: Please rate the test files from 0-100 on how similar the width of the sound source is to the available reference.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/Test22-Cube_ASW/ref_cube_-70,0.wav

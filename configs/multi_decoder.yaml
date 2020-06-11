@@ -313,34 +313,34 @@ pages:
           # C2: configs/resources/audio/Test20-Cube_localisation-opposite/Harpex_cube_opposite.wav
           # C3: configs/resources/audio/Test20-Cube_localisation-opposite/AllRad_cube_opposite.wav
           # C4: configs/resources/audio/Test20-Cube_localisation-opposite/anchor_mono_downmix_LPF_2kHz-v2.wav
-    - type: mushra
-      id: ASWCinema
-      name: APPARENT SOURCE WIDTH; 7.1.4 LAYOUT
-      content: Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
-      showWaveform: true
-      enableLooping: true 
-      reference: configs/resources/audio/Test21-7.1.4_ASW/ref_7.1.4_45,0.wav
-      createAnchor35: false
-      createAnchor70: false
-      stimuli:
-          C1: configs/resources/audio/Test21-7.1.4_ASW/anchor_7.1.4.wav
-          C2: configs/resources/audio/Test21-7.1.4_ASW/Harpex_7.1.4_45,0.wav
-          C3: configs/resources/audio/Test21-7.1.4_ASW/AllRad_7.1.4_45,0.wav
-          C4: configs/resources/audio/Test21-7.1.4_ASW/DTS_7.1.4_45,0.wav
     # - type: mushra
-      # id: ASWCube
-      # name: APPARENT SOURCE WIDTH; CUBE LAYOUT
+      # id: ASWCinema
+      # name: APPARENT SOURCE WIDTH; 7.1.4 LAYOUT
       # content: Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
       # showWaveform: true
       # enableLooping: true 
-      # reference: configs/resources/audio/Test22-Cube_ASW/ref_cube_-70,0.wav
+      # reference: configs/resources/audio/Test21-7.1.4_ASW/ref_7.1.4_45,0.wav
       # createAnchor35: false
       # createAnchor70: false
       # stimuli:
-          # C1: configs/resources/audio/Test22-Cube_ASW/DTS_cube_-70,0.wav
-          # C2: configs/resources/audio/Test22-Cube_ASW/anchor_cube.wav
-          # C3: configs/resources/audio/Test22-Cube_ASW/AllRad_cube_-70,0.wav
-          # C4: configs/resources/audio/Test22-Cube_ASW/Harpex_cube_-70,0.wav
+          # C1: configs/resources/audio/Test21-7.1.4_ASW/anchor_7.1.4.wav
+          # C2: configs/resources/audio/Test21-7.1.4_ASW/Harpex_7.1.4_45,0.wav
+          # C3: configs/resources/audio/Test21-7.1.4_ASW/AllRad_7.1.4_45,0.wav
+          # C4: configs/resources/audio/Test21-7.1.4_ASW/DTS_7.1.4_45,0.wav
+    - type: mushra
+      id: ASWCube
+      name: APPARENT SOURCE WIDTH; CUBE LAYOUT
+      content: Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/audio/Test22-Cube_ASW/ref_cube_-70,0.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Test22-Cube_ASW/DTS_cube_-70,0.wav
+          C2: configs/resources/audio/Test22-Cube_ASW/anchor_cube.wav
+          C3: configs/resources/audio/Test22-Cube_ASW/AllRad_cube_-70,0.wav
+          C4: configs/resources/audio/Test22-Cube_ASW/Harpex_cube_-70,0.wav
     - type: finish
       name: Thank you
       content: Thank you for attending!

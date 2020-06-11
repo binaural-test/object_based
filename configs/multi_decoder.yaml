@@ -291,14 +291,14 @@ pages:
       content: Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/Test19-7.1.4_localisation-opposite_prox/ref_7.1.4_opposite.wav
+      reference: configs/resources/audio/Test19-7.1.4_localisation-opposite/ref_7.1.4_opposite.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/Test19-7.1.4_localisation-opposite_prox/AllRad_7.1.4_opposite.wav
-          C2: configs/resources/audio/Test19-7.1.4_localisation-opposite_prox/DTS_7.1.4_opposite.wav
-          C3: configs/resources/audio/Test19-7.1.4_localisation-opposite_prox/Harpex_7.1.4_opposite.wav
-          C4: configs/resources/audio/Test19-7.1.4_localisation-opposite_prox/anchor_mono_downmix_LPF_2kHz-v2.wav
+          C1: configs/resources/audio/Test19-7.1.4_localisation-opposite/AllRad_7.1.4_opposite.wav
+          C2: configs/resources/audio/Test19-7.1.4_localisation-opposite/DTS_7.1.4_opposite.wav
+          C3: configs/resources/audio/Test19-7.1.4_localisation-opposite/Harpex_7.1.4_opposite.wav
+          C4: configs/resources/audio/Test19-7.1.4_localisation-opposite/anchor_mono_downmix_LPF_2kHz-v2.wav
     # - type: mushra
       # id: localOppCube
       # name: DIAMETRICALLY OPPOSITE SOURCE LOCALISATION; CUBE LAYOUT
@@ -309,10 +309,10 @@ pages:
       # createAnchor35: false
       # createAnchor70: false
       # stimuli:
-          # C1: configs/resources/audio/Test20-Cube_localisation-opposite_prox/DTS_cube_opposite.wav
-          # C2: configs/resources/audio/Test20-Cube_localisation-opposite_prox/Harpex_cube_opposite.wav
-          # C3: configs/resources/audio/Test20-Cube_localisation-opposite_prox/AllRad_cube_opposite.wav
-          # C4: configs/resources/audio/Test20-Cube_localisation-opposite_prox/anchor_mono_downmix_LPF_2kHz-v2.wav
+          # C1: configs/resources/audio/Test20-Cube_localisation-opposite/DTS_cube_opposite.wav
+          # C2: configs/resources/audio/Test20-Cube_localisation-opposite/Harpex_cube_opposite.wav
+          # C3: configs/resources/audio/Test20-Cube_localisation-opposite/AllRad_cube_opposite.wav
+          # C4: configs/resources/audio/Test20-Cube_localisation-opposite/anchor_mono_downmix_LPF_2kHz-v2.wav
     # - type: mushra
       # id: ASWCinema
       # name: APPARENT SOURCE WIDTH; 7.1.4 LAYOUT

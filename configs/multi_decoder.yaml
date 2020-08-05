@@ -11,29 +11,78 @@ pages:
       id: first_page
       name: Welcome
       content: >
-        Welcome to the Ambisonic Decoder Listening Test <br/>
-        There are 2 halves to this test. Part 1 is object-based, <br/>
-        which tests the effects each decoder has on certain characteristics of a given sound source(s)<br/>
-        Part 2 will be based around more environmental and listener-based characteristics. <br/>
-        Once the test is finished, please fill ot the questinonnaire and press submit. <br/>
+        Welcome to the TCD Spatial Audio Listening Test <br/>
+        There are three parts to this test, a short training session to familiarize yourself with the test interface, <br/>
+        and the test itself which is divided into two parts. <br/>
+        Once the test is finished, please fill out the questionnaire and press submit. <br/>
         You may take a break, or pull out from doing the test at any time if you wish to do so. <br/>
-        Thank you! <br/>
+        The next page will contain the detailed instructions for the test. Please read this carefully before proceeding. <br/><br/>
+        Thank you!
         
     - type: generic
       id: Instructions
       name: Instructions
       content: > 
-        This is the first half of the test. This half will test three different characteristics; <br/>
-        Localisation Accuracy, Localisation and Apparent Source Width <br/> <br/>
-        For each characteristic there will be an available reference on the left hand side of the page which you can listen to at any time. <br/>
-        There will be a number of audio files for you to listen to which must be rated from 0-100 using the associated sliders. <br/>
-        This rating should be based on how similar the selected audio file is to the reference file for the given characteristic. <br/>
-        A rating of 0 would describe the chosen file as pure noise and a rating of 100 would state the file has no difference to the available reference. <br/> <br/>
-        Please ensure to compare the selected track against the REFERENCE ONLY and not to the other audio files. <br/> <br/>
-        There are also two sliders under the waveform of the audio file. <br/>
-        These can be dragged at any time to loop over the chosen range of the selected audio file. <br/>
+        The first step in the listening tests is to become familiar with the testing process.  <br/>
+        This phase is called a training phase and it precedes the formal evaluation phase.  <br/>
+        The purpose of the training phase is to allow you, as an evaluator, to learn how to use the test interface and the grading scale.  <br/>
+        In the training phase you will be able to listen to some sound excerpts which are different from the reference recording in a variety of ways, as specified in the different test questions.  <br/> <br/>
+        Figure 1 shows the user interface. You may click on different buttons to listen to different sound excerpts.  <br/>
+        There are also two sliders under the waveform of the audio file, these can be dragged at any time to loop over the chosen range of the selected audio file.  <br/>
+        In this way you can learn to appreciate a range of different levels of quality for different recordings in terms of a variety of different attributes, as outlined in the next section.  <br/>
+        No grades given during the training phase will be taken into account in the true tests.  <br/>
+        A comfortable volume and listening level should be set and fixed during the training phase. No adjustments to the playback level should take place during the test itself.  <br/> 
+        During the training phase you should be able to learn how you, as an individual, interpret the audible impairments in terms of the grading scale.  <br/>
+
+    - type: generic
+      id: Instructions
+      name: Instructions
+      content: >         
+        2 Blind grading phase – Part 1  <br/> <br/>
+        The aim of the blind grading phase is to rate the quality of each stimulus compared to a reference recording, under a number of specific criteria.  <br/>
+        Please note that the reference recording represents the most accurate representation of the original source signal that is presented,  <br/>
+        and you should base your quality judgements on how closely the test signals match the reference, under the following criteria.  <br/> <br/>
         
+        Test Criteria and Attributes  <br/> <br/>
+        Localization – how closely the perceived direction (both horizontal and elevation) of the test signal or signals matches the perceived direction of the given reference.  <br/>
+        Locatedness – the degree to which the test signals are as focused in a single point in space, or can be said to be clearly in a particular location, as the given reference  <br/>  <br/>
+        Each trial will contain 5 signals to be graded. You should listen to the reference, and all the test items by clicking on the respective buttons.  <br/>
+        You may listen to the signals in any order, any number of times.  <br/>
+        Use the slider for each signal to indicate your opinion of its quality under the given heading. When you are satisfied with your grading of all signals you should click on the “Next” button at the bottom of the screen.  <br/>
+        You will use the quality scale as given in Fig. 2 when assigning your grades. The grading scale is continuous from “excellent” to “bad”.  <br/>
+        In evaluating the sound excerpts, please note that you should not necessarily give a grade in the “bad” category to the sound excerpt with the lowest quality in the test.  <br/>
+        However one or more excerpts must be given a grade of 100 because the unprocessed reference signal is included as one of the excerpts to be graded.  <br/>
+        Please listen to entire sample before starting playback a different recording.  <br/>
+
+    - type: generic
+      id: Instructions
+      name: Instructions
+      content: >  
+        User Interface <br/><br/>
+        Each page contains 5 test recordings (including a hidden reference recording) and the reference recording. <br/>
+        This experiment consists of a total of 24 questions, and is divided into two parts of 10 and 14 questions respectively ,to allow for a quick break at the midway point of the test. <br/>
+        Once you are happy with your responses for a test, click the Next button to continue to the next page. Please note that at least one recording must be rated at 100 before you can proceed to the next page. <br/>
+        Please evaluate all recordings and not just the ones you deem to be of a high quality. Give each recording a fair score compared to the ideal recording i.e. the reference recording. <br/>
+        Fig. 1 User Interface <br/>
+      image: \images\testInterface.png
+      content: >
+        Fig. 2 Test Quality Scale <br/>
+      image: \images\scale.png
         
+    - type: generic
+      id: Instructions
+      name: Instructions
+      content: >        
+        Test 1-4 Localization <br/><br/>
+        Please rate the test signals from 0-100 in terms of how closely the perceived direction (both horizontal and elevation) of the source matches the perceived direction in the given reference. <br/>
+        A rating of 100 indicates that the direction of the test signal is identical to the direction of the given reference. <br/><br/>
+        Test 5-8 Localization, two sources
+        Please rate the test signals from 0-100 in terms of how closely the perceived directions (both horizontal and elevation) of the two sources in each test signal matches the perceived direction of the two sources in the given reference. <br/>
+        A rating of 100 indicates that the signals are identical to the given reference in terms of this specific attribute. <br/><br/>
+        Test 9-10 Locatedness
+        Please rate the test signals from 0-100 in terms of how closely the locatedness (i.e. the degree to which the source is focused in a single point in space, or can be said to be clearly in a particular location,) of the source matches the perceived locatedness of the given reference. <br/>
+        A rating of 100 indicates that the signal is identical to the given reference in terms of this specific attribute. <br/><br/>
+
     - type: mushra
       id: HorCinAtDrums
       name: TEST 1 - LOCALISATION ACCURACY

@@ -195,14 +195,14 @@ pages:
       showWaveform: true
       enableLooping: true 
       randomize: true
-      reference: configs/resources/audio/Test_9/test_9_ref.wav
+      reference: configs/resources/audio/Test_9/Test9_ref.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/Test_9/test9_AllRAD.wav
-          C2: configs/resources/audio/Test_9/test9_Harpex.wav
-          C3: configs/resources/audio/Test_9/test9_Anchor.wav
-          C4: configs/resources/audio/Test_9/test9_DTS.wav
+          C1: configs/resources/audio/Test_9/Test9_AllRAD.wav
+          C2: configs/resources/audio/Test_9/Test9_Harpex.wav
+          C3: configs/resources/audio/Test_9/Test9_Anchor.wav
+          C4: configs/resources/audio/Test_9/Test9_DTS.wav
     - type: mushra
       id: localCube
       name: TEST 10 - LOCATEDNESS
@@ -210,14 +210,14 @@ pages:
       showWaveform: true
       enableLooping: true 
       randomize: true
-      reference: configs/resources/audio/Test_10/test10_Ref.wav
+      reference: configs/resources/audio/Test_10/Test10_Ref.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/Test_10/test10_allRAD.wav
-          C2: configs/resources/audio/Test_10/test10_Harpex.wav
-          C3: configs/resources/audio/Test_10/test10_Anchor.wav
-          C4: configs/resources/audio/Test_10/test10_DTS.wav
+          C1: configs/resources/audio/Test_10/Test10_allRAD.wav
+          C2: configs/resources/audio/Test_10/Test10_Harpex.wav
+          C3: configs/resources/audio/Test_10/Test10_Anchor.wav
+          C4: configs/resources/audio/Test_10/Test10_DTS.wav
     - type: finish
       name: Thank you
       content: Thank you for attending!

@@ -21,10 +21,9 @@ pages:
         
     - type: generic
       id: ListInstructions
-      name: Listeners Instructions
+      name: Familiarization or training phase
       content: > 
         Thanks for taking part in this experiment. Please read the following instructions before beginning the test. <br/><br/>
-        **1 Familiarization or training phase** <br/><br/>
         The first step in the listening tests is to become familiar with the testing process. This phase is called a training phase and it precedes the formal evaluation phase.  <br/> <br/>
         The purpose of the training phase is to allow you, as an evaluator, to learn how to use the test interface and the grading scale.  <br/>
         In the training phase you will be able to listen to some sound excerpts which are different from the reference recording in a variety of ways, as specified in the different test questions.  <br/> <br/>
@@ -43,15 +42,15 @@ pages:
         Please note that the reference recording represents the most accurate representation of the original source signal that is presented,  <br/>
         and you should base your quality judgements on how closely the test signals match the reference, under the following criteria.  <br/> <br/>
         
-        **Test Criteria and Attributes**  <br/> <br/>
-        **Localization** – how closely the perceived direction (both horizontal and elevation) of the test signal or signals matches the perceived direction of the given reference.  <br/>
-        **Locatedness** – the degree to which the test signals are as focused in a single point in space, or can be said to be clearly in a particular location, as the given reference  <br/>  <br/>
+        Test Criteria and Attributes  <br/> <br/>
+        LOCALISATION – how closely the perceived direction (both horizontal and elevation) of the test signal or signals matches the perceived direction of the given reference.  <br/>
+        LOCATEDNESS – the degree to which the test signals are as focused in a single point in space, or can be said to be clearly in a particular location, as the given reference  <br/>  <br/>
         Each trial will contain 5 signals to be graded. You should listen to the reference, and all the test items by clicking on the respective buttons.  <br/>
         You may listen to the signals in any order, any number of times.  <br/> <br/>
         Use the slider for each signal to indicate your opinion of its quality under the given heading. When you are satisfied with your grading of all signals you should click on the “Next” button at the bottom of the screen.  <br/>
         You will use the quality scale as given in Fig. 2 when assigning your grades. The grading scale is continuous from “excellent” to “bad”.  <br/> <br/>
         In evaluating the sound excerpts, please note that you should not necessarily give a grade in the “bad” category to the sound excerpt with the lowest quality in the test.  <br/>
-        **However one or more excerpts must be given a grade of 100 because the unprocessed reference signal is included as one of the excerpts to be graded.**  <br/>
+        However one or more excerpts must be given a grade of 100 because the unprocessed reference signal is included as one of the excerpts to be graded.  <br/>
         Please listen to entire sample before starting playback a different recording.  <br/><br/>
 
     - type: generic
@@ -221,7 +220,7 @@ pages:
     - type: finish
       name: Thank you
       content: Thank you for attending!
-      showResults: false
+      showResults: true
       writeResults: true
       questionnaire:
           - type: text

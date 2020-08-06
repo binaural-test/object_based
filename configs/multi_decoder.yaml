@@ -63,7 +63,7 @@ pages:
         Please evaluate all recordings and not just the ones you deem to be of a high quality. Give each recording a fair score compared to the ideal recording i.e. the reference recording. <br/>
         
     - type: mushra
-      id: training
+      id: Training
       name: TRAINING - EXAMPLE TEST - LOCALISATION ACCURACY
       content: Please rate the test signals from 0-100 in terms of how closely the perceived direction (both horizontal and elevation) of the source matches the perceived direction in the given reference. <br/> A rating of 100 indicates that the direction of the test signal is identical to the direction of the given reference.
       showWaveform: true
@@ -84,7 +84,7 @@ pages:
         The training phase is now complete. Pressing "next" will take you to the first question of this test. <br/> <br/> 
         Once you press "next" on any of the test pages, you may press the back button to return to any previous test if needed. 
     - type: mushra
-      id: HorCinDrums
+      id: Test 1
       name: TEST 1 - LOCALISATION ACCURACY
       content: Please rate the test signals from 0-100 in terms of how closely the perceived direction (both horizontal and elevation) of the source matches the perceived direction in the given reference. <br/> A rating of 100 indicates that the direction of the test signal is identical to the direction of the given reference.
       showWaveform: true
@@ -99,7 +99,7 @@ pages:
           C3: configs/resources/audio/Test_1/test_1_anchor.wav
           C4: configs/resources/audio/Test_1/test_1_DTS_s.wav
     - type: mushra
-      id: HorCinVoice
+      id: Test 2
       name: TEST 2 - LOCALISATION ACCURACY
       content: Please rate the test signals from 0-100 in terms of how closely the perceived direction (both horizontal and elevation) of the source matches the perceived direction in the given reference. <br/> A rating of 100 indicates that the direction of the test signal is identical to the direction of the given reference.
       showWaveform: true
@@ -114,7 +114,7 @@ pages:
           C3: configs/resources/audio/Test_2/test_2_anchor.wav
           C4: configs/resources/audio/Test_2/test_2_DTS_s.wav
     - type: mushra
-      id: HorCubeDrums
+      id: Test 3
       name: TEST 3 - LOCALISATION ACCURACY
       content: Please rate the test signals from 0-100 in terms of how closely the perceived direction (both horizontal and elevation) of the source matches the perceived direction in the given reference. <br/> A rating of 100 indicates that the direction of the test signal is identical to the direction of the given reference.
       showWaveform: true
@@ -129,7 +129,7 @@ pages:
           C3: configs/resources/audio/Test_3/test_3_anchor.wav
           C4: configs/resources/audio/Test_3/test_3_DTS_s.wav    
     - type: mushra
-      id: HorCubVoice
+      id: Test 4
       name: TEST 4 - LOCALISATION ACCURACY
       content: Please rate the test signals from 0-100 in terms of how closely the perceived direction (both horizontal and elevation) of the source matches the perceived direction in the given reference. <br/> A rating of 100 indicates that the direction of the test signal is identical to the direction of the given reference.
       showWaveform: true
@@ -144,7 +144,7 @@ pages:
           C3: configs/resources/audio/Test_4/test_4_anchor.wav
           C4: configs/resources/audio/Test_4/test_4_DTS_s.wav
     - type: mushra
-      id: closeCin
+      id: Test 5
       name: TEST 5 - SOURCE LOCALISATION
       content: Please rate the test signals from 0-100 in terms of how closely the perceived directions (both horizontal and elevation) of the two sources in each test signal matches the perceived direction of the two sources in the given reference. <br/> A rating of 100 indicates that the signals are identical to the given reference in terms of this specific attribute.
       showWaveform: true
@@ -159,7 +159,7 @@ pages:
           C3: configs/resources/audio/Test_5/test_5_anchor.wav
           C4: configs/resources/audio/Test_5/test_5_DTS.wav       
     - type: mushra
-      id: closeCube
+      id: Test 6
       name: TEST 6 - SOURCE LOCALISATION
       content: Please rate the test signals from 0-100 in terms of how closely the perceived directions (both horizontal and elevation) of the two sources in each test signal matches the perceived direction of the two sources in the given reference. <br/> A rating of 100 indicates that the signals are identical to the given reference in terms of this specific attribute.
       showWaveform: true
@@ -174,7 +174,7 @@ pages:
           C3: configs/resources/audio/Test_6/test_6_anchor.wav
           C4: configs/resources/audio/Test_6/test_6_DTS.wav
     - type: mushra
-      id: oppositeCin
+      id: Test 7
       name: TEST 7 - SOURCE LOCALISATION
       content: Please rate the test signals from 0-100 in terms of how closely the perceived directions (both horizontal and elevation) of the two sources in each test signal matches the perceived direction of the two sources in the given reference. <br/> A rating of 100 indicates that the signals are identical to the given reference in terms of this specific attribute.
       showWaveform: true
@@ -189,7 +189,7 @@ pages:
           C3: configs/resources/audio/Test_7/test_7_anchor.wav
           C4: configs/resources/audio/Test_7/test_7_DTS_s.wav
     - type: mushra
-      id: oppositeCube
+      id: Test 8
       name: TEST 8 - SOURCE LOCALISATION
       content: Please rate the test signals from 0-100 in terms of how closely the perceived directions (both horizontal and elevation) of the two sources in each test signal matches the perceived direction of the two sources in the given reference. <br/> A rating of 100 indicates that the signals are identical to the given reference in terms of this specific attribute.
       showWaveform: true
@@ -204,7 +204,7 @@ pages:
           C3: configs/resources/audio/Test_8/test_8_anchor.wav
           C4: configs/resources/audio/Test_8/test_8_DTS_s.wav
     - type: mushra
-      id: LocalCin
+      id: Test 9
       name: TEST 9 - LOCATEDNESS
       content: Please rate the test signals from 0-100 in terms of how closely the locatedness (i.e. the degree to which the source is focused in a single point in space, or can be said to be clearly in a particular location,) of the source matches the perceived locatedness of the given reference. <br/> A rating of 100 indicates that the signal is identical to the given reference in terms of this specific attribute.
       showWaveform: true
@@ -219,7 +219,7 @@ pages:
           C3: configs/resources/audio/Test_9/Test9_Anchor.wav
           C4: configs/resources/audio/Test_9/Test9_DTS.wav
     - type: mushra
-      id: localCube
+      id: Test 10
       name: TEST 10 - LOCATEDNESS
       content: Please rate the test signals from 0-100 in terms of how closely the locatedness (i.e. the degree to which the source is focused in a single point in space, or can be said to be clearly in a particular location,) of the source matches the perceived locatedness of the given reference. <br/> A rating of 100 indicates that the signal is identical to the given reference in terms of this specific attribute.
       showWaveform: true

@@ -21,22 +21,22 @@ pages:
         
     - type: generic
       id: ListInstructions
-      name: Familiarization or training phase
+      name: Familiarization of training phase
       content: > 
         Thanks for taking part in this experiment. Please read the following instructions before beginning the test. <br/><br/>
-        The first step in the listening tests is to become familiar with the testing process. This phase is called a training phase and it precedes the formal evaluation phase.  <br/> <br/>
+        The first step in this listening test is to become familiar with the testing process. This phase is called a training phase and it precedes the formal evaluation phase.  <br/> <br/>
         The purpose of the training phase is to allow you, as an evaluator, to learn how to use the test interface and the grading scale.  <br/>
         In the training phase you will be able to listen to some sound excerpts which are different from the reference recording in a variety of ways, as specified in the different test questions.  <br/> <br/>
-        Figure 1 shows the user interface. You may click on different buttons to listen to different sound excerpts.  <br/>
+        For the test interface, you may click on different buttons to listen to different sound excerpts.  <br/>
         There are also two sliders under the waveform of the audio file, these can be dragged at any time to loop over the chosen range of the selected audio file.  <br/> <br/>
-        In this way you can learn to appreciate a range of different levels of quality for different recordings in terms of a variety of different attributes, as outlined in the next section.  <br/>
+        In this way you can learn to appreciate a range of different levels of quality for different recordings in terms of a variety of different attributes, as outlined in the next section. 
         No grades given during the training phase will be taken into account in the true tests.  <br/> <br/>
-        **A comfortable volume and listening level should be set and fixed during the training phase. No adjustments to the playback level should take place during the test itself.**  <br/> <br/>
+        A comfortable volume and listening level should be set and fixed during the training phase. No adjustments to the playback level should take place during the test itself.  <br/> <br/>
         During the training phase you should be able to learn how you, as an individual, interpret the audible impairments in terms of the grading scale.  <br/> <br/>
 
     - type: generic
       id: blindGrade
-      name: 2 Blind grading phase
+      name: Blind grading phase
       content: >         
         The aim of the blind grading phase is to rate the quality of each stimulus compared to a reference recording, under a number of specific criteria.  <br/>
         Please note that the reference recording represents the most accurate representation of the original source signal that is presented,  <br/>
@@ -47,25 +47,20 @@ pages:
         LOCATEDNESS – the degree to which the test signals are as focused in a single point in space, or can be said to be clearly in a particular location, as the given reference  <br/>  <br/>
         Each trial will contain 5 signals to be graded. You should listen to the reference, and all the test items by clicking on the respective buttons.  <br/>
         You may listen to the signals in any order, any number of times.  <br/> <br/>
-        Use the slider for each signal to indicate your opinion of its quality under the given heading. When you are satisfied with your grading of all signals you should click on the “Next” button at the bottom of the screen.  <br/>
-        You will use the quality scale as given in Fig. 2 when assigning your grades. The grading scale is continuous from “excellent” to “bad”.  <br/> <br/>
-        In evaluating the sound excerpts, please note that you should not necessarily give a grade in the “bad” category to the sound excerpt with the lowest quality in the test.  <br/>
-        However one or more excerpts must be given a grade of 100 because the unprocessed reference signal is included as one of the excerpts to be graded.  <br/>
+        Use the slider for each signal to indicate your opinion of its quality under the given heading. When you are satisfied with your grading of all signals you should click on the “Next” button at the bottom of the screen. 
+        The grading scale is a continuous scale, divided into 5 general tiers; “Excellent”, "Good", "Fair", "Poor", “Bad”.  <br/> <br/>
+        In evaluating the sound excerpts, please note that you should not necessarily give a grade in the “bad” category to the sound excerpt with the lowest quality in the test.
+        However one (or more) excerpts must be given a grade of 100 because the unprocessed reference signal is included as one of the excerpts to be graded.
         Please listen to entire sample before starting playback a different recording.  <br/><br/>
 
     - type: generic
       id: Interface
       name:  User Interface
       content: >  
-        Each page contains 5 test recordings (including a hidden reference recording) and the reference recording. <br/>
-        This experiment consists of a total of 24 questions, and is divided into two parts of 10 and 14 questions respectively ,to allow for a quick break at the midway point of the test. <br/>
+        Each page contains 5 test recordings (including a hidden reference recording), each with a slider for grading. The reference recording is located to the left of the sliders, under "reference"  <br/>  <br/>
+        The overall experiment consists of a total of 24 questions, and is divided into two seperate tests of 10 and 14 questions respectively, to allow for a quick break at the midway point of the experiment. This is test 1, which contains 10 questions. <br/>  <br/>
         Once you are happy with your responses for a test, click the Next button to continue to the next page. Please note that at least one recording must be rated at 100 before you can proceed to the next page. <br/> <br/>
         Please evaluate all recordings and not just the ones you deem to be of a high quality. Give each recording a fair score compared to the ideal recording i.e. the reference recording. <br/>
-        Fig. 1 User Interface <br/>
-      image: \images\testInterface.png
-      content: >
-        Fig. 2 Test Quality Scale <br/>
-      image: \images\scale.png
 
     - type: mushra
       id: HorCinDrums

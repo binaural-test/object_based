@@ -57,7 +57,7 @@ pages:
       name:  User Interface
       content: >  
         Each page contains 5 test recordings (including a hidden reference recording), each with a slider for grading. The reference recording is located to the left of the sliders, under "reference"  <br/>  <br/>
-        The overall experiment consists of a total of 24 questions, and is divided into two seperate tests of 10 and 14 questions respectively, to allow for a quick break at the midway point of the experiment. This is test 1, which contains 10 questions. <br/>  <br/>
+        The overall experiment consists of a total of 24 questions, and is divided into two seperate tests of 10 and 14 questions respectively, to allow for a quick break at the midway point of the experiment. The next page contains a training test, which can be used to familiarize yourself with the test interface. <br/><br/>
         Once you are happy with your responses for a test, click the Next button to continue to the next page. Please note that at least one recording must be rated at 100 before you can proceed to the next page. <br/> <br/>
         Please evaluate all recordings and not just the ones you deem to be of a high quality. Give each recording a fair score compared to the ideal recording i.e. the reference recording. <br/>
         
@@ -80,12 +80,14 @@ pages:
       id: testStart
       name:  Start of Test
       content: >  
-        The training phase is now complete. Pressing "next" will take you to the first question of this test. <br/> <br/> 
-        Once you press "next" on any of the test pages, you may press the back button to return to any previous test if needed. 
+        The training phase is now complete. Pressing "next" will take you to the first question of part one of this test, which contains 10 questions. <br/> <br/> 
+        Once you are happy with your responses, click the "next" button to continue to the next page. You may press the back button to return to any previous test if needed.  <br/> <br/>
+        Please note that at least one recording must be rated at 100 before you can proceed to the next page.
+        Please evaluate all recordings and not just the ones you deem to be of a high quality. Give each recording a fair score compared to the ideal recording i.e. the reference recording.
     - type: mushra
       id: Test 1
       name: TEST 1 - LOCALISATION ACCURACY
-      content: Please rate the test signals from 0-100 in terms of how closely the perceived direction (both horizontal and elevation) of the source matches the perceived direction in the given reference. <br/> A rating of 100 indicates that the direction of the test signal is identical to the direction of the given reference.
+      content: Please rate the test signals from 0-100 in terms of how closely the perceived direction (both horizontal and elevation) of the source matches the perceived direction in the given reference. <br/> A rating of 100 indicates that the direction of the test signal is identical to the direction of the given reference. 
       showWaveform: true
       enableLooping: true 
       randomize: true
@@ -238,7 +240,8 @@ pages:
       content: >         
         Before pressing "next" on this page, please ensure that you have rated every recording, and that at least one recording per test has a rating of 100. <br/><br/>
         Once you press "next" you will not be able to go back. Pressing next will bring you to a quick questionnaire, please fill out every section. <br/>  <br/>
-        Once the questionnaire has been completed, please press the "Submit results" button, which will display results on screen. Please email these results back.  <br/> <br/>
+        Once the questionnaire has been completed, please press the "Submit results" button, which will display results on screen. Please copy these results, and send them in an email to  <br/> <br/>
+        enda.bates@adaptcentre.ie. 
 
     - type: finish
       name: Thank you
